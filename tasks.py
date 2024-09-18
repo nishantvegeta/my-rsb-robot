@@ -66,7 +66,7 @@ def export_as_pdf():
     sales_results_html = page.locator("#sales-results").inner_html()
 
     pdf = PDF()
-    pdf.html_to_pdf(sales_result_html, "output/sales_results.pdf")
+    pdf.html_to_pdf(sales_results_html, "output/sales_results.pdf")
 
 def log_out():
     """Clicks the 'Log out' button"""
